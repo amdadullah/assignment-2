@@ -5,8 +5,45 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 /* ======================
-       banner section
+    banner section css
     ===================*/
 .banner{
-    background-color: black;
+    background-color: #161616;
+    color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.banner-left{
+    width: 50%;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.banner-info{
+    font-size: 16px;
+}
+.banner-left button{
+    padding: 10px 15px;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+.banner-left a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.fa-angle-right{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-right img{
+    width: 80%;
+    height: 100%;
 }
