@@ -128,10 +128,10 @@ a{
     .match-right{
       display:grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-column-gap: 120px;
+      align-items: flex-end;
+      grid-column-gap: 70px;
       grid-row-gap: 100px; 
-      align-items: center;
-      margin-left: 50px;
+      margin: auto;
     }   
    .match{
       text-align: center;
