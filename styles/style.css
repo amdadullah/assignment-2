@@ -106,7 +106,7 @@ a{
    .blogs-right{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
    }
    .blog-link{
     border: 1px solid #161616;
