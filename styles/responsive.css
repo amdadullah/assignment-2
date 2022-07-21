@@ -1,0 +1,13 @@
+/* tablet style css */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .banner{
+        display: none;
+        background-color: brown;
+    } 
+    
+    .blogs-right{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
+}
