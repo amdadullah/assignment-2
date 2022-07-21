@@ -1,13 +1,29 @@
 /* tablet style css */
 @media only screen and (min-width:768px) and (max-width:991px) {
-    .banner{
-        display: none;
-        background-color: brown;
-    } 
-    
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+       }
+    .blog-pages{
+        
+       }
+    .blogs-left{
+        width: 100%;
+        background-color: #fff;
+       }
     .blogs-right{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
-    }
+        grid-column-gap: 10px;
+       }
    
+}
+
+/* mobile style css */
+@media only screen and (max-width:767px){
+    body {
+        /* display:none; */
+    }
+    
 }
