@@ -1,6 +1,11 @@
 /* poppins fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 /* common css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
     font-family: 'Poppins', sans-serif;
     margin: 50px;
@@ -9,6 +14,10 @@ a{
     text-decoration: none;
     color: #161616;
 }
+.active{
+  background-color: #DD0000;
+  color: #fff;
+ }
 /* ======================
     banner section css
     ===================*/
@@ -57,7 +66,7 @@ a{
    ================== */
    .blogs{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 100px;
    }
    .blogs-left{
@@ -71,6 +80,11 @@ a{
     display: flex;
     flex-direction: column;
     margin: 10px;
+    /* width: 252px;
+    height: 252px; */
+   }
+   .blog-pages p {
+    margin: 15px 5px;
    }
    .blog-pages a{
     display: block;
@@ -85,10 +99,6 @@ a{
     background-color: #DD0000;
     color: #fff;
    }
-   .active{
-    background-color: #DD0000;
-    color: #fff;
-   }
 
    /* blogs right */
    .blogs-right{
@@ -96,8 +106,6 @@ a{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
    }
-   .blog{}
-   .thumbnail{}
    .blog-link{
     border: 1px solid #161616;
     border-radius: 5px;
@@ -112,7 +120,28 @@ a{
    .blog-info i{
     margin-right: 15px;
    }
-
+   /* ==================
+      match pages style
+      ================== */
+    .match-right{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 120px;
+      grid-row-gap: 100px; 
+      align-items: center;
+      margin-left: 50px;
+    }   
+   .match{
+      text-align: center;
+   }
+   .match-title{
+    font-size: 20px;
+    color: #161616;
+   }
+   .match-date{
+    font-size: 16px;
+    color: #4d4d4d;
+   }
    /* ================
         footer css
       =============== */
